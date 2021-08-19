@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-import {validate} from 'schema-utils';
+const {validate} = require('schema-utils');
 
 const schema = {
     type: 'object',
